@@ -11,19 +11,21 @@ A curated collection of my daily solutions to LeetCode's **Problem of the Day (P
 ## 📊 LeetCode Stats
 
 <!--STATS:START-->
+
 | Metric | Value |
 |---|---|
-| **Total Solved** | — |
-| 🟢 Easy | — |
-| 🟡 Medium | — |
-| 🔴 Hard | — |
-| **Global Ranking** | — |
-| **Contest Rating** | — |
-| **Contests Attended** | — |
-| **Contest Global Rank** | — |
-| **Contest Top %** | — |
+| **Total Solved** | 845 |
+| 🟢 Easy | 230 |
+| 🟡 Medium | 470 |
+| 🔴 Hard | 145 |
+| **Global Ranking** | 54,033 |
+| **Contest Rating** | 1825 |
+| **Contests Attended** | 29 |
+| **Contest Global Rank** | 60,734 |
+| **Contest Top %** | Top 7.12% |
 
-*Stats populate automatically once the update workflow runs. Source: [leetcode.com/u/f220b](https://leetcode.com/u/f220b/)*
+*Last updated: 2026-07-05 · Source: [leetcode.com/u/f220b](https://leetcode.com/u/f220b/)*
+
 <!--STATS:END-->
 
 This table is kept current by a GitHub Actions workflow that queries LeetCode's own GraphQL API and rewrites the numbers above — no third-party badge images, just plain data pulled straight from my profile.
