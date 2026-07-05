@@ -12,6 +12,9 @@ A curated collection of my daily solutions to LeetCode's **Problem of the Day (P
 
 <!--STATS:START-->
 
+![](https://leetcard.jacoblin.cool/jacoblincool?theme=unicorn)
+![](https://leetcard.jacoblin.cool/jacoblincool?theme=light,unicorn)
+
 | Metric | Value |
 |---|---|
 | **Total Solved** | 845 |
