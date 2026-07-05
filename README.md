@@ -10,19 +10,23 @@ A curated collection of my daily solutions to LeetCode's **Problem of the Day (P
 
 ## 📊 LeetCode Stats
 
-These cards pull data live from my LeetCode profile ([f220b](https://leetcode.com/u/f220b/)) every time this page loads — problems solved, ranking, and contest info stay up to date automatically.
+<!--STATS:START-->
+| Metric | Value |
+|---|---|
+| **Total Solved** | — |
+| 🟢 Easy | — |
+| 🟡 Medium | — |
+| 🔴 Hard | — |
+| **Global Ranking** | — |
+| **Contest Rating** | — |
+| **Contests Attended** | — |
+| **Contest Global Rank** | — |
+| **Contest Top %** | — |
 
-<p align="center">
-  <img src="https://leetcode-stats-card.vercel.app/api?username=f220b&theme=dark&border_radius=10" alt="f220b's LeetCode Stats" />
-</p>
+*Stats populate automatically once the update workflow runs. Source: [leetcode.com/u/f220b](https://leetcode.com/u/f220b/)*
+<!--STATS:END-->
 
-<p align="center">
-  <img src="https://leetcard.jacoblin.cool/f220b?theme=dark&font=Karma&ext=activity" alt="f220b's LeetCode Activity" />
-</p>
-
-> **Note:** These are third-party badge services that query the public LeetCode GraphQL API on each page view. If a card fails to load, LeetCode may have rate-limited the service — refresh after a bit, or see [Auto-updating stats](#-auto-updating-stats-optional) below for a self-hosted alternative that's more reliable.
-
-For full details (contest rating, ranking history, badges), visit my live profile: **[leetcode.com/u/f220b](https://leetcode.com/u/f220b/)**
+This table is kept current by a GitHub Actions workflow that queries LeetCode's own GraphQL API and rewrites the numbers above — no third-party badge images, just plain data pulled straight from my profile.
 
 ---
 
@@ -54,18 +58,16 @@ LeetCode-POTD/
 
 Every folder contains the solution file(s) for that problem, solved as part of the daily challenge.
 
-## 🚀 Auto-updating stats (optional)
+## ⚙️ How the auto-updating stats work
 
-If you'd like these numbers to be committed into the README itself (rather than fetched live via an image), you can add a small GitHub Actions workflow that:
+1. `scripts/update-readme.js` sends a GraphQL query to `https://leetcode.com/graphql` asking for:
+   - Total / Easy / Medium / Hard problems solved
+   - Global profile ranking
+   - Contest rating, contests attended, contest global rank, and top percentile
+2. `.github/workflows/update-stats.yml` runs that script once a day (and on every push to `main`, and on-demand via "Run workflow").
+3. The script rewrites everything between the `<!--STATS:START-->` and `<!--STATS:END-->` markers in this file and commits the change automatically.
 
-1. Queries the LeetCode GraphQL API (`https://leetcode.com/graphql`) for your public stats.
-2. Writes the results between `<!--STATS:START-->` / `<!--STATS:END-->` markers in this file.
-3. Commits the updated README on a schedule (e.g., daily via `cron`).
-
-Popular ready-made actions for this: `JacobLinCool/leetcode-stats-card` (badge-based, used above) or writing a small script with `actions/github-script` + a GraphQL query against LeetCode's public API. Let me know if you'd like this workflow scaffolded out — I can generate the `.yml` and the fetch script.
-
-<!--STATS:START-->
-<!--STATS:END-->
+**Setup:** just add the two files (`scripts/update-readme.js` and `.github/workflows/update-stats.yml`) to this repo — no API key or secret is needed since LeetCode's profile/contest data is public. If your LeetCode username changes, update `LEETCODE_USERNAME` in the workflow file.
 
 ## 📌 About
 
