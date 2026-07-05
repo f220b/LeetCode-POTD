@@ -60,19 +60,3 @@ LeetCode-POTD/
 
 Every folder contains the solution file(s) for that problem, solved as part of the daily challenge.
 
-## ⚙️ How the auto-updating stats work
-
-1. `scripts/update-readme.js` sends a GraphQL query to `https://leetcode.com/graphql` asking for:
-   - Total / Easy / Medium / Hard problems solved
-   - Global profile ranking
-   - Contest rating, contests attended, contest global rank, and top percentile
-2. `.github/workflows/update-stats.yml` runs that script once a day (and on every push to `main`, and on-demand via "Run workflow").
-3. The script rewrites everything between the `<!--STATS:START-->` and `<!--STATS:END-->` markers in this file and commits the change automatically.
-
-**Setup:** just add the two files (`scripts/update-readme.js` and `.github/workflows/update-stats.yml`) to this repo — no API key or secret is needed since LeetCode's profile/contest data is public. If your LeetCode username changes, update `LEETCODE_USERNAME` in the workflow file.
-
-## 📌 About
-
-This repo is my personal log of daily LeetCode POTD submissions — a way to stay consistent, sharpen problem-solving skills, and track progress over time.
-
-⭐ Feel free to explore, and reach out if you spot a more optimal approach to any solution!
