@@ -14,8 +14,8 @@ A curated collection of my daily solutions to LeetCode's **Problem of the Day (P
 
 | Metric | Value |
 |---|---|
-| **Total Solved** | 852 |
-| 🟢 Easy | 231 |
+| **Total Solved** | 853 |
+| 🟢 Easy | 232 |
 | 🟡 Medium | 474 |
 | 🔴 Hard | 147 |
 | **Global Ranking** | 52,404 |
