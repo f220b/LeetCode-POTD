@@ -18,7 +18,7 @@ A curated collection of my daily solutions to LeetCode's **Problem of the Day (P
 | 🟢 Easy | 235 |
 | 🟡 Medium | 478 |
 | 🔴 Hard | 150 |
-| **Global Ranking** | 51,273 |
+| **Global Ranking** | 50,973 |
 | **Contest Rating** | 1825 |
 | **Contests Attended** | 29 |
 | **Contest Global Rank** | 61,356 |
