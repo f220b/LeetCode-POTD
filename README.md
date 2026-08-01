@@ -18,13 +18,13 @@ A curated collection of my daily solutions to LeetCode's **Problem of the Day (P
 | 🟢 Easy | 291 |
 | 🟡 Medium | 488 |
 | 🔴 Hard | 152 |
-| **Global Ranking** | 41,069 |
+| **Global Ranking** | 40,979 |
 | **Contest Rating** | 1825 |
 | **Contests Attended** | 29 |
 | **Contest Global Rank** | 61,930 |
 | **Contest Top %** | Top 7.23% |
 
-*Last updated: 2026-07-31 · Source: [leetcode.com/u/f220b](https://leetcode.com/u/f220b/)*
+*Last updated: 2026-08-01 · Source: [leetcode.com/u/f220b](https://leetcode.com/u/f220b/)*
 
 <!--STATS:END-->
 
