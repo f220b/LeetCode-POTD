@@ -24,7 +24,7 @@ A curated collection of my daily solutions to LeetCode's **Problem of the Day (P
 | **Contest Global Rank** | 62,308 |
 | **Contest Top %** | Top 7.26% |
 
-*Last updated: 2026-08-16 · Source: [leetcode.com/u/f220b](https://leetcode.com/u/f220b/)*
+*Last updated: 2026-08-17 · Source: [leetcode.com/u/f220b](https://leetcode.com/u/f220b/)*
 
 <!--STATS:END-->
 
