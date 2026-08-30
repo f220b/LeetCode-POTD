@@ -16,15 +16,15 @@ A curated collection of my daily solutions to LeetCode's **Problem of the Day (P
 |---|---|
 | **Total Solved** | 964 |
 | 🟢 Easy | 301 |
-| 🟡 Medium | 504 |
-| 🔴 Hard | 159 |
-| **Global Ranking** | 38,040 |
+| 🟡 Medium | 503 |
+| 🔴 Hard | 160 |
+| **Global Ranking** | 37,957 |
 | **Contest Rating** | 1825 |
 | **Contests Attended** | 29 |
 | **Contest Global Rank** | 62,669 |
 | **Contest Top %** | Top 7.29% |
 
-*Last updated: 2026-08-29 · Source: [leetcode.com/u/f220b](https://leetcode.com/u/f220b/)*
+*Last updated: 2026-08-30 · Source: [leetcode.com/u/f220b](https://leetcode.com/u/f220b/)*
 
 <!--STATS:END-->
 
