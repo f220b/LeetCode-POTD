@@ -1,0 +1,30 @@
+// Last updated: 9/5/2026, 12:13:14 AM
+class Solution {
+    using ll = long long;
+    using vi = vector<int>;
+
+public:
+    vi gcdValues(vi& A, vector<long long>& queries) {
+        int mx = ranges::max(A);
+        vi freq(mx + 1, 0);
+        vector<ll> GCD(mx + 1, 0);
+
+        for (auto& a : A)
+            freq[a]++;
+
+        for (int i = mx; i > 0; i--) {
+            ll sm = 0, extra = 0;
+            for (int j = i; j <= mx; j += i)
+                sm += freq[j], extra += GCD[j];
+            GCD[i] = sm * (sm - 1) / 2 - extra;
+        }
+
+        partial_sum(GCD.begin(), GCD.end(), GCD.begin());
+
+        vi res(queries.size());
+        for (int i = 0; i < queries.size(); i++)
+            res[i] = ranges::upper_bound(GCD, queries[i]) - GCD.begin();
+
+        return res;
+    }
+};
