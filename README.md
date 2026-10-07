@@ -14,11 +14,11 @@ A curated collection of my daily solutions to LeetCode's **Problem of the Day (P
 
 | Metric | Value |
 |---|---|
-| **Total Solved** | 997 |
+| **Total Solved** | 998 |
 | 🟢 Easy | 308 |
 | 🟡 Medium | 521 |
-| 🔴 Hard | 168 |
-| **Global Ranking** | 35,649 |
+| 🔴 Hard | 169 |
+| **Global Ranking** | 35,341 |
 | **Contest Rating** | 1825 |
 | **Contests Attended** | 29 |
 | **Contest Global Rank** | 63,865 |
