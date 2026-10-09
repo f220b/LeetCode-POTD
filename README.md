@@ -14,17 +14,17 @@ A curated collection of my daily solutions to LeetCode's **Problem of the Day (P
 
 | Metric | Value |
 |---|---|
-| **Total Solved** | 998 |
-| 🟢 Easy | 308 |
+| **Total Solved** | 999 |
+| 🟢 Easy | 309 |
 | 🟡 Medium | 521 |
 | 🔴 Hard | 169 |
-| **Global Ranking** | 35,341 |
+| **Global Ranking** | 35,269 |
 | **Contest Rating** | 1825 |
 | **Contests Attended** | 29 |
-| **Contest Global Rank** | 63,865 |
-| **Contest Top %** | Top 7.37% |
+| **Contest Global Rank** | 64,048 |
+| **Contest Top %** | Top 7.38% |
 
-*Last updated: 2026-10-08 · Source: [leetcode.com/u/f220b](https://leetcode.com/u/f220b/)*
+*Last updated: 2026-10-09 · Source: [leetcode.com/u/f220b](https://leetcode.com/u/f220b/)*
 
 <!--STATS:END-->
 
